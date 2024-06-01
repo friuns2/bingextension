@@ -1,4 +1,5 @@
-import { createApp } from 'vue';
-import App from './App.vue';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
 
-createApp(App).mount('#app');
+ReactDOM.render(<App />, document.getElementById('app'));
